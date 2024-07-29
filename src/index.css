@@ -55,6 +55,13 @@ a {
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  .icon-container {
+    width: 90px;
+    margin-top: -40px;
+  }
+}
+
 .nav-links:hover {
   color: #37398f;
 }
