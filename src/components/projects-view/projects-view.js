@@ -16,6 +16,9 @@ import iconPokemon from "../../img/icon-pokemon.png";
 import iconChat from "../../img/icon-chat.png";
 import iconMeet from "../../img/icon-meet.png";
 
+// import demo
+import chatappDemo from "../../img/chatapp.mp4";
+
 const cardData = [
   {
     title: "MARVEL MANIA",
@@ -32,7 +35,7 @@ const cardData = [
     description:
       'The goal for this project was to build a server-side component of a "movies" web application. The API provides users with access to information about different movies, directors, and genres. Users have the ability to sign up, update their personal information, and create a list of their favorite movies!',
     icon: iconApi,
-    liveDemo: "https://github.com/kayashley/mcu-marvel-mania-api",
+    liveDemo: "https://mcumarvel-c028170c1f00.herokuapp.com/",
     sourceCode: "https://github.com/kayashley/mcu-marvel-mania-api.git",
   },
   {
@@ -50,7 +53,7 @@ const cardData = [
     description:
       "The purpose of this chat app was built for mobile devices to showcase the usage of React Native. The app provides users with a chat interface and options to share images and send their location.",
     icon: iconChat,
-    liveDemo: "https://github.com/kayashley/chat-app.git",
+    liveDemo: chatappDemo,
     sourceCode: "https://github.com/kayashley/chat-app.git",
   },
   {
