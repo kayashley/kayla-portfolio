@@ -44,8 +44,8 @@ const cardData = [
     description:
       "A small web application designed with HTML, CSS, and Javascript that loads data from an external API and allows users to look up details of their favorite Pokémon.",
     icon: iconPokemon,
-    liveDemo: "https://kayashley.github.io/pokeapp/",
-    sourceCode: "https://github.com/kayashley/pokeapp.git",
+    liveDemo: "https://pokedex-hub.netlify.app/",
+    sourceCode: "https://github.com/kayashley/pokedex.git",
   },
   {
     title: "ChatApp",
