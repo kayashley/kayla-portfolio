@@ -1,5 +1,9 @@
 // src/components/contact-view.js
 
+import linkedin from "../../img/linkedin.png";
+import github from "../../img/github.png";
+import email from "../../img/email.png";
+
 export default function ContactView() {
   return (
     <section id="contact">
@@ -15,32 +19,16 @@ export default function ContactView() {
 
         <div className="">
           {/* linkedin */}
-          <a
-            className=""
-            href="https://www.linkedin.com/in/chan-kay/"
-            target="blank"
-          >
-            <img
-              className="footer-icons"
-              src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png"
-              alt="LinkedIn"
-            />
+          <a className="" href="www.linkedin.com/in/chan-kay" target="blank">
+            <img className="footer-icons" src={linkedin} alt="LinkedIn" />
           </a>
           {/* github */}
           <a className="" href="https://github.com/kayashley" target="blank">
-            <img
-              className="footer-icons"
-              src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-              alt="GitHub"
-            />
+            <img className="footer-icons" src={github} alt="GitHub" />
           </a>
           {/* email */}
           <a className="" href="mailto:kayashchan@gmail.com" target="blank">
-            <img
-              className="footer-icons"
-              src="https://static-00.iconduck.com/assets.00/email-icon-1024x1024-7l3hfh11.png"
-              alt="Email"
-            />
+            <img className="footer-icons" src={email} alt="Email" />
           </a>
           <div className="footer-container">
             <div className="footer-span">
