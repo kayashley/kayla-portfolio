@@ -1,6 +1,6 @@
 // src/components/about-view.js
 
-import profile from "../../img/portrait.jpg"; // import profile image
+// import profile from "../../img/portrait.jpg"; // import profile image
 import "../../index.css"; // import css
 
 export default function AboutView() {
