@@ -6,7 +6,7 @@ export default function NavbarView() {
   return (
     <nav className="navbar-container">
       <div className="icon-container">
-        <img className="icon" src={icon} alt="icon" />
+        {/* <img className="icon" src={icon} alt="icon" /> */}
       </div>
 
       <ul className="navbar-content">
@@ -21,17 +21,17 @@ export default function NavbarView() {
           </a>
         </li>
         <li>
-          <a className="nav-links" href="#contact">
-            Contact
-          </a>
-        </li>
-        <li>
           <a
             className="nav-links"
             href="https://drive.google.com/file/d/1wQwbvAhsqIeAdJVOnyw4-u7dnFkk3qkf/view?usp=sharing"
             download
           >
             Resume
+          </a>
+        </li>
+        <li>
+          <a className="nav-links" href="#contact">
+            Contact
           </a>
         </li>
       </ul>

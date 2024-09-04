@@ -9,33 +9,31 @@ export default function AboutView() {
       <div className="about-container">
         <div className="about-grid">
           <span className="about-header">
-            <span className="about-header-v1">Hello World,</span>
-            <br />
-            <div className="header-indent1">
-              <span className="about-header-v1">I'm </span>
-              <span className="about-header-v2">Kayla Chan</span>
-              <br />
-              <div className="header-indent2">
-                <span className="about-header-v1">an </span>
-                <span className="about-header-v3">aspiring Web Developer!</span>
-              </div>
-            </div>
+            <h1>KAYLA CHAN</h1>
+            <h3>Web Developer</h3>
+            <span>
+              <h5 className="location-header">
+                <em>Boston, MA</em>
+              </h5>
+            </span>
           </span>
 
-          <img src={profile} className="about-profile" alt="profile-image" />
+          {/* <img src={profile} className="about-profile" alt="profile-image" /> */}
         </div>
 
         <div className="about-body">
           <p className="about-content">
-            An aspiring web developer with a background in Biology and
-            Information Technology. I have provided strong and engaging customer
-            service to a large client base, assisting over 80 companies and
-            resolving numerous challenges with effective problem-solving
-            methods. With a creative and curious mindset, I aim to transform my
-            ideas into websites and applications, applying my troubleshooting
-            skills to code and other issues. Developing websites and
-            applications from the back end to the front end has enhanced my
-            understanding of application structures.
+            A Web Developer with a background in Biology and Information
+            Technology. I aim to transform my ideas into digital solutions,
+            applying my skills to code and troubleshoot issues. Whether working
+            on the back end or front end, I thrive on transforming abstract
+            ideas into fully functional websites and applications.
+            <br></br>
+            <br></br>
+            With a keen eye for detail and a relentless curiosity, I
+            continuously seek to expand my knowledge and refine my skills. My
+            goal is to develop seamless digital experiences that are as elegant
+            as they are effective.
           </p>
         </div>
       </div>
