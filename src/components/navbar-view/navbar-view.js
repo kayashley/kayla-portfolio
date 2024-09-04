@@ -1,6 +1,6 @@
 // src/components/navbar-view.js
 
-import icon from "../../img/icon.png"; // icon
+// import icon from "../../img/icon.png"; // icon
 
 export default function NavbarView() {
   return (
