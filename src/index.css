@@ -72,6 +72,10 @@ a {
   z-index: 1;
 }
 
+.navbar-content {
+  margin-right: 50px;
+}
+
 .icon-container {
   /* border: 1px solid blue; */
   width: 150px;
