@@ -25,6 +25,15 @@ export default function NavbarView() {
             Contact
           </a>
         </li>
+        <li>
+          <a
+            className="nav-links"
+            href="/src/img/Kayla-Chan-Resume.pdf"
+            download
+          >
+            Resume
+          </a>
+        </li>
       </ul>
     </nav>
   );
