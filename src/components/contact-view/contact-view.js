@@ -19,7 +19,11 @@ export default function ContactView() {
 
         <div className="">
           {/* linkedin */}
-          <a className="" href="www.linkedin.com/in/chan-kay" target="blank">
+          <a
+            className=""
+            href="https://www.linkedin.com/in/chan-kay"
+            target="blank"
+          >
             <img className="footer-icons" src={linkedin} alt="LinkedIn" />
           </a>
           {/* github */}
