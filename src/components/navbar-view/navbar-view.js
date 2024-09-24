@@ -23,7 +23,7 @@ export default function NavbarView() {
         <li>
           <a
             className="nav-links"
-            href="https://drive.google.com/file/d/1wQwbvAhsqIeAdJVOnyw4-u7dnFkk3qkf/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ypnJrVTlXcwfunTzr8shoTrGD93Tv-GO/view?usp=sharing"
             download
           >
             Resume
