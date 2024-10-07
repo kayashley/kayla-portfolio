@@ -9,6 +9,7 @@ import pokemonImage from "../../img/pokemon.png";
 import chatImage from "../../img/chat2.png";
 import meetImage from "../../img/meetup2.png";
 import pilatesImage from "../../img/fitpilates.jpg";
+import subaruImage from "../../img/subaru.png";
 
 // import icons
 import iconHero from "../../img/icon-hero.png";
@@ -17,6 +18,7 @@ import iconPokemon from "../../img/icon-pokemon.png";
 import iconChat from "../../img/icon-chat.png";
 import iconMeet from "../../img/icon-meet.png";
 import iconPilates from "../../img/icon-pilates.png";
+import iconSubaru from "../../img/icon-subaru.png";
 
 // import demo
 import chatappDemo from "../../img/chatapp.mp4";
@@ -75,6 +77,15 @@ const cardData = [
     icon: iconPilates,
     liveDemo: "https://fitpilates1.wordpress.com/",
     sourceCode: "https://fitpilates1.wordpress.com/",
+  },
+  {
+    title: "Subaru Crosstrek",
+    imageUrl: subaruImage,
+    description:
+      "A Pilates blog site was built using WordPress, incorporating AI-generated content, pages, and plugins to deliver informative articles on Pilates methods and benefits, offering an engaging user experience.",
+    icon: iconSubaru,
+    liveDemo: "https://subaru-crosstrek.netlify.app/",
+    sourceCode: "https://github.com/kayashley/new-dealeron.git",
   },
 ];
 
