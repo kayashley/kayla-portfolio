@@ -82,7 +82,7 @@ const cardData = [
     title: "Subaru Crosstrek",
     imageUrl: subaruImage,
     description:
-      "A Pilates blog site was built using WordPress, incorporating AI-generated content, pages, and plugins to deliver informative articles on Pilates methods and benefits, offering an engaging user experience.",
+      "Developed an appealing and user-friendly webpage promoting the 2024 Subaru Crosstrek, showcasing my expertise with the Bootstrap 3 framework. The page features a well-structured, error-free layout and is fully responsive, optimized for screens as small as 360px.",
     icon: iconSubaru,
     liveDemo: "https://subaru-crosstrek.netlify.app/",
     sourceCode: "https://github.com/kayashley/new-dealeron.git",
